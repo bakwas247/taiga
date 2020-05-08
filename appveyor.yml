@@ -14,5 +14,3 @@ build_script:
     C:\projects\taiga\deps\build.bat
     
     devenv "C:\projects\taiga\project\vs2019\Taiga.sln" /Build "Release|Win32"
-    
-    msbuild "C:\projects\taiga\project\vs2019\Taiga.sln" /verbosity:minimal /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll"
