@@ -68,7 +68,7 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>comctl32.lib;libcurl_a_debug.lib;Oleacc.lib;psapi.lib;shlwapi.lib;uxtheme.lib;Winmm.lib;Dwmapi.lib;ws2_32.lib;Crypt32.lib;Normaliz.lib;wldap32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>comctl32.lib;Oleacc.lib;psapi.lib;shlwapi.lib;uxtheme.lib;Winmm.lib;Dwmapi.lib;ws2_32.lib;Crypt32.lib;Normaliz.lib;wldap32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <DelayLoadDLLs>comctl32.dll</DelayLoadDLLs>
       <AdditionalLibraryDirectories>..\..\deps\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
