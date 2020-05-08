@@ -15,6 +15,8 @@ build_script:
     
     devenv "C:\projects\taiga\project\vs2019\Taiga.sln" /Build "Release|Win32"
     
+    "%ProgramFiles(x86)%\NSIS\makensis.exe" C:\projects\taiga\setup\Taiga.nsi
+    
 artifacts:
   - path: 'bin\Release'
     name: Taiga
