@@ -5,3 +5,7 @@ clone_script:
     git checkout -qf %APPVEYOR_REPO_COMMIT%
     
     git submodule update --init --recursive
+
+build_script:
+- cmd: >-
+    msbuild "C:\projects\taiga\project\vs2019\Taiga.sln" /verbosity:minimal /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll"
