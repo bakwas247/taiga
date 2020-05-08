@@ -16,6 +16,6 @@ build_script:
     devenv "C:\projects\taiga\project\vs2019\Taiga.sln" /Build "Release|Win32"
     
 artifacts:
-  - path: '..\..\bin\Release'
+  - path: 'bin\Release'
     name: Taiga
     type: zip
