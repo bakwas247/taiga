@@ -14,3 +14,8 @@ build_script:
     C:\projects\taiga\deps\build.bat
     
     devenv "C:\projects\taiga\project\vs2019\Taiga.sln" /Build "Release|Win32"
+    
+artifacts:
+  - path: 'C:\projects\taiga\project\vs2019'
+    name: Taiga
+    type: zip
