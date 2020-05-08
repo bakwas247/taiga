@@ -21,3 +21,7 @@ artifacts:
   - path: 'bin\Release'
     name: Taiga
     type: zip
+    
+  - path: 'bin\TaigaSetup.exe'
+    name: TaigaSetup
+    type: exe
